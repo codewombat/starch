@@ -12,7 +12,7 @@ Recommended configuration
   to enable Starch and select the featured image field.
 - Edit your default layout, ensuring it is the core two-column layout.
 - Configure the _Header_ block to use the _Primary navigation_ menu.
-- Configure the _Breadcrumb_ block to add a visibility condition excluding it from display at node/* paths.
+- Configure the _Breadcrumb_ block to add a visibility condition excluding it from node/* paths.
 - Add the _Search form_, _User login_, and other blocks to the sidebar as desired.
 
 This theme is really suited to visual blogging, where each blog has at least a large, beautiful header image. The image will be displayed above the node title in the default front page teaser list and above the page title on the full page node display.
