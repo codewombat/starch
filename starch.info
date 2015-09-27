@@ -1,0 +1,9 @@
+name = Starch
+description = A crisp, clean theme optimized for the default layout.
+version = 0.1.0
+backdrop = 1.x
+type = theme
+
+stylesheets[all][] = css/style.css
+
+settings[featured_image_field] = ''
