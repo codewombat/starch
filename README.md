@@ -1,6 +1,8 @@
 # Starch
 A crisp, clean Backdrop theme optimized for the two-column layout.
 
+![Screenshot](https://raw.githubusercontent.com/codewombat/starch/1.x-1.x/screenshot.png)
+
 Installation
 ------------
 - Starch is best used with the core two-column layout and default Post content type.
