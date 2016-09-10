@@ -5,5 +5,6 @@ backdrop = 1.x
 type = theme
 
 stylesheets[all][] = css/style.css
+scripts[] = js/menus.js
 
 settings[featured_image_field] = ''

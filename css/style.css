@@ -283,6 +283,16 @@ a img {
   }
 }
 
+.screen-reader-text {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+}
+
 #skip-link {
   position: absolute;
   top: -100%;
@@ -376,6 +386,15 @@ article.comment {
 
 .filter-wrapper {
   padding: .75em;
+  min-height: 3em;
+}
+.filter-wrapper legend {
+  position: absolute;
+  width: 100%;
+  background-color: #ffffff;
+}
+.filter-wrapper .fieldset-wrapper {
+  padding-top: 2em;
 }
 .filter-wrapper .form-item {
   margin: 0 .5em .5em;
@@ -445,6 +464,17 @@ article.comment {
 .layout--two-column .l-footer {
   padding-left: 1em;
   padding-right: 1em;
+}
+
+.l-header .block-social-icons-social-icons ul.social-icons {
+  margin: 1em 0 .5em 0;
+  text-align: center;
+}
+
+@media all and (min-width: 37.5em) {
+  .l-header .block-social-icons-social-icons ul.social-icons {
+    margin: 0;
+  }
 }
 
 @media all and (min-width: 50em) {
@@ -527,7 +557,7 @@ article.comment {
   overflow: hidden;
   -webkit-transition: max-height 0.2s ease-in-out;
   transition: max-height 0.2s ease-in-out;
-  text-align: left;
+  text-align: center;
 }
 .header-menu-container.open {
   max-height: 999px;
@@ -540,8 +570,11 @@ article.comment {
   list-style: none;
   margin: 0 auto;
 }
-.header-menu li {
+.header-menu ul li {
   margin-bottom: 1.5em;
+}
+.header-menu ul li:last-child {
+  margin-bottom: 0;
 }
 .header-menu li.active {
   font-weight: 700;
@@ -568,6 +601,7 @@ article.comment {
 
 @media all and (min-width: 50em) {
   .header-menu-container {
+    text-align: left;
     max-height: none;
     margin: 2.25em 0;
     overflow: visible;
@@ -693,6 +727,10 @@ ul.inline .comment-comments {
 
 .submitted {
   margin-top: 0;
+}
+
+ul.primary {
+  height: 2em;
 }
 
 ul.primary li {
