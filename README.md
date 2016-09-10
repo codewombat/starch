@@ -1,16 +1,16 @@
 # Starch
-A crisp, clean Backdrop theme optimized for the two-column layout.
+A crisp, clean Backdrop theme optimized for the Moscone layouts.
 
 Installation
 ------------
-- Starch is best used with the core two-column layout and default Post content type.
+- Starch is best used with the core Moscone layouts and default Post content type.
 - Install this theme using the official [Backdrop instructions](https://backdropcms.org/guide/themes).
 
 Recommended configuration
 -------------------------
 - Visit the configuration page under **Appearance > Themes** to enable Starch.
 - Configure its settings form to select a featured image field.
-- Edit your default layout, ensuring it is the core two-column layout.
+- Edit your default layout, ensuring it uses Moscone or Mosone Flipped.
 - Configure the _Header_ block to use the _Primary navigation_ menu.
 - Configure the _Breadcrumb_ block to add a visibility condition excluding it from node/* paths.
 - Add the _Search form_, _User login_, and other blocks to the sidebar as desired.
