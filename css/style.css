@@ -318,7 +318,7 @@ a img {
 }
 
 .comments {
-  padding: 0 6.25%;
+  padding: 0;
   margin: 3em 0;
 }
 
@@ -348,7 +348,7 @@ a img {
 }
 
 article.comment {
-  margin: 3em 0;
+  margin: 2em 0;
 }
 
 .comment-footer a {
@@ -406,17 +406,11 @@ article.comment {
   margin-right: 1em;
 }
 
-@media all and (min-width: 37.5em) {
-  .comments {
-    padding: 0;
-  }
-}
 .l-footer {
-  padding: 3em 6.25% 0.75em;
+  padding: 0 6.25% 0.75em;
 }
 .l-footer .block-system-powered-by {
   text-align: center;
-  margin-top: 3em;
 }
 .l-footer .block-system-powered-by a {
   font-weight: 700;
@@ -424,7 +418,7 @@ article.comment {
 
 @media all and (min-width: 56.25em) {
   .l-footer {
-    padding: 3em 0 0.75em;
+    padding: 0 0 0.75em;
     clear: both;
   }
 }
@@ -438,12 +432,15 @@ article.comment {
   font-size: 1em;
   display: block;
   background: none;
-  margin: 2.25em auto 3em;
+  margin: 0 auto 3em;
   padding: 0;
   border: none;
 }
 .toggle-navigation:hover {
   cursor: pointer;
+}
+.toggle-navigation.open {
+  margin-top: 0;
 }
 
 .name-and-slogan {
@@ -466,6 +463,10 @@ article.comment {
   padding-right: 1em;
 }
 
+.l-header {
+  padding-top: 2.25em;
+}
+
 .l-header .block-social-icons-social-icons ul.social-icons {
   margin: 1em 0 .5em 0;
   text-align: center;
@@ -477,7 +478,7 @@ article.comment {
   }
 }
 
-@media all and (min-width: 50em) {
+@media all and (min-width: 56.25em) {
   .toggle-navigation {
     display: none;
   }
@@ -494,7 +495,7 @@ article.comment {
   }
 
   .l-header {
-    margin-top: 2.25em;
+    padding-top: 0;
   }
 
   .header-menu .links {
@@ -599,7 +600,7 @@ article.comment {
   color: #6b6b6b;
 }
 
-@media all and (min-width: 50em) {
+@media all and (min-width: 56.25em) {
   .header-menu-container {
     text-align: left;
     max-height: none;
@@ -731,11 +732,14 @@ ul.inline .comment-comments {
 
 ul.primary {
   height: 2em;
+  margin: 0;
 }
 
 ul.primary li {
   font-size: .75em;
   margin-right: .25em;
+  float: left;
+  list-style: none;
 }
 
 ul.primary li a {
@@ -775,17 +779,13 @@ ul.primary li.active a {
   background: #333333;
 }
 
-@media all and (min-width: 37.5em) {
-  .node-post {
-    padding: 0 6.25%;
-  }
+.l-content .node-post:first-of-type {
+  margin-top: 0;
 }
+
 @media all and (min-width: 56.25em) {
   .node-post {
     padding: 0;
-  }
-  .l-content .node-post:first-of-type {
-    margin-top: 0;
   }
   .node-type-post .l-content .featured-image {
     margin-bottom: 2.25em;

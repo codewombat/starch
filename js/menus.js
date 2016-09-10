@@ -13,7 +13,8 @@ Backdrop.behaviors.toggleMainMenu = {
         $(this).removeClass('open');
 
         // Reset its max-height to 0.
-        headerMenuContainer.css('max-height', '');
+        // @todo Figure out why this doesn't work.
+        // headerMenuContainer.css('max-height', '');
 
         // Scroll the window back to the top.
         $('html, body').animate({scrollTop: '0'}, 200);
@@ -27,8 +28,9 @@ Backdrop.behaviors.toggleMainMenu = {
         $(this).addClass('open');
 
         // Expand the max-height of the menu.
-        var menuHeight = headerMenuContainer.outerHeight(true);
-        menuPrimaryContainer.css('max-height', menuHeight);
+        // @todo Figure out why this doesn't work.
+        // var menuHeight = headerMenuContainer.outerHeight(true);
+        // headerMenuContainer.css('max-height', menuHeight);
 
         // Change the aria text.
         $(this).attr('aria-expanded', 'true');
