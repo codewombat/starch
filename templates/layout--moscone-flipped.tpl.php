@@ -54,7 +54,7 @@
       <?php endif; ?>
 
       <div class="l-middle row">
-        <main class="l-content col-md-9" role="main" aria-label="<?php print t('Main content'); ?>">
+        <main class="l-content col-md-8" role="main" aria-label="<?php print t('Main content'); ?>">
           <div class="l-page-title">
             <a id="main-content"></a>
             <?php print render($title_prefix); ?>
@@ -73,7 +73,7 @@
 
           <?php print $content['content']; ?>
         </main>
-        <div class="l-sidebar l-sidebar-first col-md-3">
+        <div class="l-sidebar l-sidebar-first col-md-3 col-md-offset-1">
           <?php print $content['sidebar']; ?>
         </div>
       </div><!-- /.l-middle -->
