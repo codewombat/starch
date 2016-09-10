@@ -456,13 +456,6 @@ article.comment {
   margin: 0;
 }
 
-.layout--two-column .l-top,
-.layout--two-column .l-content,
-.layout--two-column .l-footer {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
 .l-header {
   padding-top: 2.25em;
 }
@@ -508,13 +501,6 @@ article.comment {
     float: right;
     z-index: 1000;
     margin: 0;
-  }
-
-  .layout--two-column .l-top,
-  .layout--two-column .l-content,
-  .layout--two-column .l-footer {
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 @media all and (min-width: 56.25em) {
@@ -808,20 +794,6 @@ ul.primary li.active a {
 }
 .search-form .form-item-keys label {
   display: block;
-}
-
-.layout--two-column .l-sidebar {
-  margin: 3em 0;
-  padding: 3em 6.25%;
-  border-top: solid 1px #d8d8d8;
-}
-
-@media all and (min-width: 56.25em) {
-  .layout--two-column .l-sidebar {
-    border: none;
-    margin: 0 0 0 -30%;
-    padding: 0 0 0 5%;
-  }
 }
 
 /**
