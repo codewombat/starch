@@ -1,6 +1,8 @@
 # Starch
 A crisp, clean Backdrop theme optimized for the Moscone layouts.
 
+![Screenshot](https://raw.githubusercontent.com/codewombat/starch/1.x-1.x/screenshot.png)
+
 Installation
 ------------
 - Starch is best used with the core Moscone layouts and default Post content type.
