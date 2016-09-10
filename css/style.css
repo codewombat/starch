@@ -26,6 +26,8 @@ h3 {
 ul.inline .node-readmore a,
 .submitted,
 .comment-comments,
+.comment-new-comments,
+.comment-forbidden,
 .comment-add,
 .comment ul.links,
 .filter-wrapper,
