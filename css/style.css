@@ -660,21 +660,29 @@ ul.inline .node-readmore a:hover, ul.inline .node-readmore a:active, ul.inline .
   color: white;
 }
 
-ul.inline .comment-comments {
+ul.inline .comment-comments,
+ul.inline .comment-new-comments,
+ul.inline .comment-forbidden {
   margin-right: 1.5em;
 }
 
 .comment-comments,
+.comment-new-comments,
+.comment-forbidden,
 .comment-add {
   color: #333333;
   -webkit-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .comment-comments,
+.comment-new-comments,
+.comment-forbidden,
 .comment-add i {
   margin-right: 3px;
 }
 .comment-comments a:hover, .comment-comments a:active, .comment-comments a:focus,
+.comment-new-comments a:hover, .comment-new-comments a:active, .comment-new-comments a:focus,
+.comment-forbidden a:hover, .comment-forbidden a:active, .comment-forbidden a:focus,
 .comment-add a:hover, .comment-add a:active, .comment-add a:focus {
   text-decoration: underline;
   color: #333333;
