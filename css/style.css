@@ -689,6 +689,10 @@ ul.inline .comment-comments {
 .node-post.view-mode-teaser .sticky-status {
   position: absolute;
   top: 0;
+  left: .9375rem;
+}
+
+.logged-in .node-post.view-mode-teaser .sticky-status {
   left: 0;
 }
 
